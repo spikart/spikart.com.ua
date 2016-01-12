@@ -12,7 +12,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
+	public $host = '213.174.0.27';
 	public $user = 'alex';
 	public $password = '11Alex22';
 	public $db = 'spikart_template';
