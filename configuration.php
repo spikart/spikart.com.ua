@@ -13,8 +13,8 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'spikart';
-	public $password = '12spikart34';
+	public $user = 'alex';
+	public $password = '11Alex22';
 	public $db = 'spikart_template';
 	public $dbprefix = 'anraj_';
 	public $live_site = '';
