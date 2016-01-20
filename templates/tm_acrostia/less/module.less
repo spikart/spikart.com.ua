@@ -1,0 +1,153 @@
+/*-----------------------------------------------------------------------
+#package     TM Acrostia Joomla Template
+#author      Templatemesh http://www.templatemesh.com
+#copyright   Copyright under commercial licence (C) 2013 - 2014 Templatemesh
+------------------------------------------------------------------------*/
+
+//module variation
+.module {
+	margin-top:20px;
+	&:first-child{
+		margin-top:0;
+	}
+	h3 {
+		font-size:20px;
+		margin:0 0 10px 0;
+		line-height:normal;
+		padding-bottom: 15px !important;
+		span{
+			margin-bottom:10px;
+		}
+	}
+	
+	&.highlighted,
+	&.orange,
+	&.dark,
+	&.green,
+	&.maroon,
+	&.blue,
+	&.gray,
+	&.pink,
+	&.red,
+	&.white {
+		h3 {
+			padding: 1px;
+			border-bottom: 0px solid @white;
+			margin-bottom: 20px;
+			span{
+				border-bottom: 5px solid @link_color;
+				color:@white !important;
+			}
+		}
+		padding:20px;
+		color:@white;
+		.border-radius(4px);
+		.box-shadow(0px 1px 1px @grayLight);
+		border: 5px solid @white;
+	}
+	
+	&.white {
+		border: 5px solid @link_color;
+		h3{
+			color:@gray;
+			border-bottom: 5px solid @link_color !important;
+			span{
+				border-bottom: 5px solid #ddd  !important;
+				color:@link_color !important;
+			}
+		}
+		p,li{
+			color:@grayLight;
+		}
+		background:@white;
+		a{
+		 color:#000;
+			 
+		&:hover{
+			   color:#6F4100;
+			   }
+		}
+	}
+	
+	&.orange {
+		background:@orange;
+		a{
+		 color:#B66B00;
+			 
+		&:hover{
+			   color:#6F4100;
+			   }
+		}
+	}
+	
+	&.dark {
+		background:@black;
+		a{
+		 color:#777;
+			 
+		&:hover{
+			   color:#888;
+			   }
+		}
+	}
+	&.green {
+		background:@green;
+		a{
+		 color:#63E063;
+			 
+		&:hover{
+			   color:#43F043;
+			   }
+		}
+	}
+	&.maroon {
+		background:#F35D34;
+		a{
+		 color:#B4300D;
+			 
+		&:hover{
+			   color:#C93F19;
+			   }
+		}
+	}
+	&.blue {
+		background:@blue;
+		a{
+		 color:#47C9FF;
+			 
+		&:hover{
+			   color:#0073A3;
+			   }
+		}
+	}
+	&.gray {
+		background:@gray;
+		a{
+		 color:#999;
+			 
+		&:hover{
+			   color:#777;
+			   }
+		}
+	}
+	&.pink {
+		background:@pink;
+		a{
+		 color:#FF5C8F;
+			 
+		&:hover{
+			color:#FA2E6E;
+		   }
+		}
+	}
+	&.red {
+		background:@red;
+		a{
+		 color:#EE4538;
+			 
+		&:hover{
+			   color:#DA3F33;
+			   }
+		}
+	}
+}

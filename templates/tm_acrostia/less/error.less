@@ -1,0 +1,52 @@
+/*-----------------------------------------------------------------------
+#package     TM Acrostia Joomla Template
+#author      Templatemesh http://www.templatemesh.com
+#copyright   Copyright under commercial licence (C) 2013 - 2014 Templatemesh
+------------------------------------------------------------------------*/
+
+@import 'variables';
+body{
+	background:#f5f5f5;
+	
+	#error-page {
+		background:url(../images/404-error.png) no-repeat 100% 0;
+		min-height:400px;
+		max-width: 650px;
+		padding: 19px 29px 29px;
+		margin: 100px auto 20px;
+		>div{
+			float:right;
+			margin-right:320px;
+			text-align:right;
+		}
+		h1{
+			&.error-code{
+				font-family:Impact;
+				font-size:180px;
+				line-height:180px;
+				color:@link_color;
+				text-shadow:0 1px #944040;
+			}
+		}
+		p{
+			&.error-message{
+				font-size:24px;
+				line-height:24px;
+				text-transform:uppercase;
+				color:#999;
+				text-shadow:0 1px #fff;
+				margin-right:10px;
+			}	
+		}
+		
+		a{
+			text-decoration:none;
+			color:@link_color;
+			&:hover{
+				text-decoration:none;
+				color:@black;
+			}
+		}
+	}	
+	
+}
